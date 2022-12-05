@@ -1,0 +1,12 @@
+[Unit]
+Description=I2c monitor LCD service
+After=multi-user.target
+[Service]
+WorkingDirectory=/home/pi/
+User=pi
+Type=simple
+Restart=always
+ExecStart=python3 RPI4-I2c_lcd-monitor-python/lcd.py
+
+[Install]
+WantedBy=multi-user.target
