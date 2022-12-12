@@ -1,6 +1,6 @@
 # TBD
 Simple monitorig script for adafruit I2c interface Board for HD44780 16x2 LCD display 
-![img](https://photos.google.com/share/AF1QipPMoTXPE0PjlQJlsPRVZDbi1vgnhamLD2ONFz1o99vifgEwWKZtdIRH1TxNjyBE2Q/photo/AF1QipMNyUexx4KZf9O_u5CUYDYRh17ksByfKJX8bu8P?key=QkZ3WTlYcTZtYWQwLThJMDlvUTdvUTJNVXRrdTRR)
+![img](https://photos.app.goo.gl/CFxjLFK9pXmBCmJg6)
 
 ## prereqs
 - Raspberry :) 
