@@ -16,3 +16,6 @@ Simple monitorig script for adafruit I2c interface Board for HD44780 16x2 LCD di
 
 ## systemd 
 -  create .service file in : /etc/systemd/system/lcdMon.service
+
+## case
+- Top LCD case can be mounted on top of following case: [Raspberry Pi 4 case](https://www.thingiverse.com/thing:3714695)
