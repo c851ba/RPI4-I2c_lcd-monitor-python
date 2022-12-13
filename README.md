@@ -20,7 +20,7 @@ Simple monitorig script for adafruit I2c interface Board for HD44780 16x2 LCD di
 ## case
 - Top LCD case can be mounted on top of following case: [Raspberry Pi 4 case](https://www.thingiverse.com/thing:3714695)
 
-'''stl
+```stl
 solid Visualization Toolkit generated SLA File
  facet normal 0.77854212436071024 0.62759074264447279 0.0014213876569355878
   outer loop
@@ -9459,4 +9459,4 @@ solid Visualization Toolkit generated SLA File
   endloop
  endfacet
 endsolid
-'''
+```
