@@ -9,7 +9,7 @@ import datetime
 now = datetime.datetime.now()
 lcd = CharLCD(i2c_expander='PCF8574', address=0x27, port=1,
               cols=16, rows=2, dotsize=8,
-              charmap='A02',
+              charmap='A00',
               auto_linebreaks=True,
               backlight_enabled=True)
 lcd.clear()
@@ -18,7 +18,7 @@ lcd.clear()
 
 while True:
     cpu = str(psutil.cpu_percent()) + '%'
-    temp = str(CPUTemperature().temperature) + '°C' 
+    temp = str(int(CPUTemperature().temperature))+ '°C'
     ramUsed = (psutil.virtual_memory()[3])
     ramFree = (psutil.virtual_memory()[4])
 
