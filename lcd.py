@@ -19,11 +19,6 @@ Refresh = .5
 
 
 while True:
-    #ramUsed = 'RAM Used ' + str(bytes2human(ramUsed))
-    #ramFree = 'RAM Free ' + str(bytes2human(ramFree))
-    
-    #rampct = 'RAM Used (GB):' + str(psutil.virtual_memory()[3]/1000000000)
-    
     # time
     for _ in range(Transition):
         now = datetime.now()
