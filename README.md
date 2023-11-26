@@ -7,7 +7,6 @@ Simple monitorig script for adafruit I2c interface Board for HD44780 16x2 LCD di
 - I2C Lcd (PCF8574) 
 - Python3
 - I2c 
-- smbus?
 
 ## packages 
 - [RPLCD.i2c](https://rplcd.readthedocs.io/en/stable/)
